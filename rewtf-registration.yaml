@@ -1,0 +1,24 @@
+# ReWTF Registration Template for Fortefication
+# Copy this to the registry.yaml file in the reWTF repository
+
+-
+  name: Fortefication Team
+  github:
+    # Add your GitHub username here
+    - your-github-username
+  repos:
+    # Add your repository URL here
+    - https://github.com/your-username/fortefication
+  wallets:
+    # Add your wallet addresses here
+    evm: "0x0000000000000000000000000000000000000000"  # Replace with your EVM address (42 chars)
+    flow: "0x0000000000000001"  # Replace with your Flow address (18 chars)
+
+# Instructions:
+# 1. Replace 'your-github-username' with your actual GitHub username
+# 2. Replace 'your-username/fortefication' with your actual repository URL
+# 3. Replace the wallet addresses with your actual EVM and Flow wallet addresses
+# 4. Go to https://github.com/onflow/rewtf-registry
+# 5. Fork the repository
+# 6. Add this entry to the end of registry.yaml file
+# 7. Create a pull request

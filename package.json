@@ -1,0 +1,40 @@
+{
+  "name": "fortefication",
+  "version": "1.0.0",
+  "description": "Automated DeFi Portfolio Manager built on Flow blockchain",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest",
+    "deploy:contracts": "flow project deploy"
+  },
+  "keywords": [
+    "defi",
+    "portfolio",
+    "flow",
+    "blockchain",
+    "cadence",
+    "automated"
+  ],
+  "author": "Fortefication Team",
+  "license": "MIT",
+  "dependencies": {
+    "@onflow/fcl": "^1.12.2",
+    "@onflow/react-sdk": "^1.0.0",
+    "next": "^14.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "typescript": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^14.0.0",
+    "jest": "^29.0.0"
+  }
+}

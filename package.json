@@ -9,7 +9,9 @@
     "start": "next start",
     "lint": "next lint",
     "test": "jest",
-    "deploy:contracts": "flow project deploy"
+    "deploy:contracts": "flow project deploy",
+    "rewtf:track": "echo '🏆 REWTF Activity: Building Fortefication on Flow! #ReWTF #FlowBlockchain'",
+    "rewtf:stats": "git log --oneline --since='1 month ago' | wc -l"
   },
   "keywords": [
     "defi",

@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import * as fcl from '@onflow/fcl'
+import RewtfTracker from '../components/RewtfTracker'
 
 // Configure FCL for Flow blockchain
 fcl.config({
@@ -27,6 +28,8 @@ export default function Home() {
 
   return (
     <div className="container">
+      <RewtfTracker />
+      
       <header>
         <h1>Fortefication</h1>
         <p>Automated DeFi Portfolio Manager on Flow</p>
